@@ -11,7 +11,8 @@ from spellchecker import SpellChecker
 from flask import json
 from werkzeug.exceptions import HTTPException
 
-nltk.download('averaged_perceptron_tagger')
+
+nltk.download('en')
 app = Flask(__name__)
 
 
@@ -67,7 +68,7 @@ def postag(text):
 
 def entity_recognition(text):
     try:
-        nlp = spacy.load('en_core_web_sm')
+        nlp = spacy.load('en')
         doc = nlp(text)
         x = ''
         for ent in doc.ents:
