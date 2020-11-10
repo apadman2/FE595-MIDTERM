@@ -7,5 +7,4 @@ string
 re
 spellchecker
 werkzeug.exceptions 
-vaderSentiment
 Werkzeug
