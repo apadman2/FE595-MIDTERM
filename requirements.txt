@@ -8,3 +8,4 @@ re
 spellchecker
 werkzeug.exceptions 
 Werkzeug
+collections
