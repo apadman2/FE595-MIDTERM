@@ -1,4 +1,4 @@
-MIDTERM README FILE:
+<b>NaturalLanguageParsing</b>
 
 Please follow the instructions bellow:
 1. Enter a URL in this form: http://3.17.11.71:8000/...function_value.../...text_input...
